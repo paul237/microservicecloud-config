@@ -4,12 +4,12 @@
       - dev
 ---
 spring: 
-  profiles: dev
+  profiles: dev  #开发环境
     application: 
        name: microservicecloud-config-paul-dev 
        
 ---
 spring: 
-  profiles: test
+  profiles: test  #测试环境
     application: 
        name: microservicecloud-config-paul-test
